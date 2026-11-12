@@ -12,10 +12,12 @@ h2{
     padding: 5px;
     color:#1cd899;
 }
-p{
+article{
     max-width: 90%;
     margin: 0 auto;
     padding: 20px;
+    color: #ffffff
+;
     
 }
 
