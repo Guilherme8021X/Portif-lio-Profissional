@@ -1,10 +1,25 @@
 h1{
+
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
     color: #1cd899;
 }
 
 h2{
+    max-width: 20%;
+    margin: 0 auto;
+    padding: 20px;
     color:#1cd899;
 }
+p{
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    
+}
+
+    
 
 body{
     background-color: #651a1a;
@@ -12,4 +27,15 @@ body{
 
 p{
     color: #ffffff;
+}
+
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+figure{
+    max-width: 25%;
+    margin: 0 auto;
+    padding: 20px;
 }
