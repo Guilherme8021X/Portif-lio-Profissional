@@ -1,5 +1,4 @@
 h1{
-
     max-width: 25%;
     margin: 0 auto;
     padding: 20px;
@@ -16,23 +15,19 @@ article{
     max-width: 90%;
     margin: 0 auto;
     padding: 20px;
-    color: #ffffff
-;
+    color: #ffffff;
     
 }
-
-    
+  
 
 body{
     background-color: #651a1a;
 }
 
-p{
-    color: #ffffff;
-}
+
 
 main{
-    max-width: 80%;
+    max-width: 70%;
     margin: 0 auto;
     padding: 20px;
 }
@@ -40,4 +35,33 @@ figure{
     max-width: 25%;
     margin: 0 auto;
     padding: 20px;
+}
+
+nav a:hover{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #d8991c;
+    text-decoration: none;
+}   
+nav a {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #d8991c;
+    text-decoration: none;
+}   
+.projetos-conquistas{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.projetos-conquistas h2{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    color: #d8991c;
+    text-decoration: none;
 }
