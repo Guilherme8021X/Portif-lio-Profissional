@@ -1,12 +1,12 @@
-h1{
-    max-width: 25%;
+h1  {
+    text-align: center;
     margin: 0 auto;
     padding: 20px;
     color: #1cd899;
 }
 
 h2{
-    max-width: 20%;
+    text-align: center;
     margin: 0 auto;
     padding: 5px;
     color:#1cd899;
@@ -16,6 +16,7 @@ article{
     margin: 0 auto;
     padding: 20px;
     color: #ffffff;
+    text-align: center;
     
 }
   
@@ -32,25 +33,29 @@ main{
     padding: 20px;
 }
 figure{
-    max-width: 25%;
+    text-align: center;
     margin: 0 auto;
     padding: 20px;
 }
+figcaption{
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+    color: #651a1a;
+}
 
-nav a:hover{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
-    color: #d8991c;
-    text-decoration: none;
-}   
+/*Estado padrão do link*/
 nav a {
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 20px;
+    max-width: 10px 15px;
     color: #d8991c;
     text-decoration: none;
+    transition: color 0.3s ease; /*transição suave para a mudança de cor*/
+}  
+/*Estado de interação(ao passar o mouse)*/
+nav a:hover{
+    color: #1cd899;
 }   
+ 
 .projetos-conquistas{
     max-width: 100%;
     margin: 0 auto;
@@ -64,4 +69,9 @@ nav a {
     padding: 20px;
     color: #d8991c;
     text-decoration: none;
+}
+.contato{
+    
+    color: #ffffff;
+
 }
